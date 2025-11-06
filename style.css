@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    width: 100dvw;
+    height: 100vh;
+    height: 100dvh;
+    background-image: url("assets/hinamizawa_morning.webp");
+    background-size: auto;
+    overflow: hidden;
+}
+
+#rika {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: auto;
+    user-select: none;
+}
+
+#rika_img {
+    display: block;
+}
+
+#score {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+#player {
+    display: flex;
+    position: fixed;
+    width: 150px;
+    height: 20px;
+    top: 90%;
+    background-color: purple;
+}
+
+#music {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
